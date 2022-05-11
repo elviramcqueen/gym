@@ -1,3 +1,5 @@
+/*Slideshow*/
+
 let slideIndex = 1;
 
 function plusSlides(n) {
@@ -28,6 +30,8 @@ window.onload = function() {
   showSlides(slideIndex);
 }
 
+
+/*'Upp' knappen*/
 document.addEventListener("scroll", (e) => {
   let scroll = window.scrollY;
   let btn = document.getElementsByClassName("go-top")[0];

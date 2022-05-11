@@ -12,26 +12,34 @@ body{
 header{
 
   background-color: rgb(30, 36, 46); /*mörkgrå*/
-  height: 270px;
+  height: 32vh;
   box-shadow: 1px 2px 60px rgb(30, 36, 46); /*mörkgrå*/ /*rgb(23, 30, 48);/*gb(134, 175, 255); /*ljusblå*/
   border-radius: 20px;
   margin-top: -30px;
 
-
-
 }
 
+/*Varje sidas 'namn'*/
 h1{
 
   font-family: 'Oswald', sans-serif;
   color: rgb(167, 169, 170); /*ljusgrå*//*rgb(255, 92, 0);/*orange*/
   text-align: center;
-  font-size: 340%;
+  font-size: 8vh;
   height: 20%;
   margin-top: 5%;
 
 }
 
+/*'Links'titeln efetrsom att den sidan är stylead annorlunda
+och därför behöver titeln flyttas på ett annat sätt*/
+#w{
+
+ padding-top: 5%;
+
+}
+
+/*Text i footern*/
 h3{
 
   font-family: 'Zen Dots', cursive;
@@ -42,10 +50,8 @@ h3{
 
 }
 
+/* Musik titlarna*/
 h2{
-
-  /*font-family: 'Zen Dots', cursive;
-  color: rgb(255, 92, 0);*/
 
   text-align: center;
   font-size: 200%;
@@ -64,6 +70,23 @@ footer{
 
 }
 
+/*Tommrum*/
+.space{
+
+ height: 10vh;
+
+}
+
+/*Orange linje*/
+.line{
+
+  height: 0.4vh;
+  background-color: rgb(255, 92, 0);/*orange*/
+
+}
+
+/*Första Lorem Ipsum texten*/
+
 .lorem{
 
   color: white;
@@ -76,6 +99,7 @@ footer{
 
 }
 
+/*Andra lorem Ipsum texten, längre*/
 .ipsum{
 
   color: white;
@@ -88,20 +112,18 @@ footer{
 
 }
 
-#links{
+/*övre bakgrunden i 'links'*/
 
-  list-style: none
-  text-decoration: none;
-  font-family: 'Oswald', sans-serif;
-  color: rgb(167, 169, 170); /*ljusgrå*/
-  font-size: 150%;
-  list-style: none;
-  display:flex;
-  justify-content: space-around;
-  padding-top: 5%;
+#blue{
+
+  background-color: rgb(30, 36, 46); /*mörkgrå*/
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -2.5%;
 
 }
 
+/*Undre bakrgunden i 'links'*/
 #orange{
 
   background-color: rgb(30, 36, 46); /*mörkgrå*//*#8C4537;/*rgb(255, 92, 0);/*orange*/
@@ -111,6 +133,7 @@ footer{
 
 }
 
+/*Lista med länkar*/
 ul a{
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
@@ -120,6 +143,22 @@ ul a{
 
 }
 
+/**/
+
+#links{
+
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(167, 169, 170); /*ljusgrå*/
+  font-size: 190%;
+  list-style: none;
+  padding-top: 5%;
+  padding-left: 14vh;
+
+}
+
+/*tips listan*/
 .tips{
 
   text-decoration: none;
@@ -128,24 +167,28 @@ ul a{
   font-size: 150%;
   list-style: none;
   padding-top: 5%;
-  padding-left: 1vh;
+  padding-left: 8vh;
 
 
 }
 
+/* När man hpvrar på anchors/länkar/a */
 a:hover{
 
 color: white;
 
 }
 
+/*Shortcutsen till de olika musiktitlarna*/
 .sc {
 
   display: flex;
   justify-content: space-around;
+  background-color: rgb(30, 36, 46); /*mörkgrå*/
 
 }
 
+/* Eftersom att de är länkar :C*/
 .sc a{
 
   text-decoration: none;
@@ -157,24 +200,14 @@ color: white;
 
 }
 
+/*När man hovrar*/
 .sc a:hover{
 
 color: white;
 
 }
 
-.space{
-
- height: 10%;
-
-}
-.line{
-
-  height: 0.4vh;
-  background-color: rgb(255, 92, 0);/*orange/*rgb(87, 95, 144);/*rgb(134, 175, 255); /*ljusblå*/
-
-}
-
+/*Navigation bar*/
 .topnav{
 
   display: flex;
@@ -187,6 +220,7 @@ color: white;
 
 }
 
+/* Länkar*/
 .topnav a{
 
 text-decoration: none;
@@ -196,11 +230,14 @@ margin-top: 0.9%;
 
 }
 
+/*När man hovrar över länkarna i navbaren*/
 .topnav a:hover{
 
  color: rgb(25, 54, 138) ;
 
 }
+
+/*Sidan man är inne på för tillfället, med klassen 'active'*/
 
 .topnav a.active{
 
@@ -220,12 +257,7 @@ color: white;
   padding: 3%;
 }
 
-#aesthetic{
-
-width: 100%;
-
-}
-
+/*Reccommendations titeln*/
 #rec{
 
   font-family: 'Oswald', sans-serif;
@@ -237,6 +269,7 @@ width: 100%;
 
 }
 
+/*Just kidding hahhaha*/
 #jk{
 
  text-align: center;
@@ -253,6 +286,7 @@ body, html {
   height: 100%;
 }
 
+/*Första parallaxbakgrunden*/
 .parallax {
 
   background-image: url("images/aesthetic.jpeg");
@@ -263,6 +297,7 @@ body, html {
   background-size: cover;
 }
 
+/*Andra parallaxbakgrunden*/
 .parallax2 {
 
   background-image: url("images/deadlift.jpeg");
@@ -273,14 +308,14 @@ body, html {
   background-size: cover;
 }
 
-/* Slideshow container */
+/* Slideshow containern */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* Nästa och tillbakaknapp */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -296,18 +331,18 @@ body, html {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* sätter 'nästa' knappen till höger */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* bakgrunden ändras när man hovrar */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Titlar */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -318,7 +353,7 @@ body, html {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* visar vilken sida användaren är på */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -327,7 +362,7 @@ body, html {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* punkterna */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -343,7 +378,7 @@ body, html {
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Animation*/
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -354,11 +389,12 @@ body, html {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+/* minska storleken på mindre skärmar */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
 
+/* Upp knappen i 'links'*/
 .go-top {
   position: fixed;
   bottom: 1rem;
@@ -378,4 +414,45 @@ body, html {
 
 .go-top:hover {
   color: #191919;
+}
+
+/*Media queries, sidan ändras på skärmar = eller < 580px*/
+@media (max-width: 880px){
+
+
+header{
+
+ height: 20%;
+
+
+}
+
+/*Saker som ska försvinna*/
+
+.blind{
+
+  display:none;
+
+}
+
+/*Titeln blir mindre*/
+#cgw{
+
+  font-size: 30px;
+
+}
+
+.sc{
+
+  display: none;
+}
+
+#links{
+
+
+
+}
+
+
+
 }

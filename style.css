@@ -124,11 +124,12 @@ ul a{
 
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
-  color: rgb(255, 92, 0);/*orange/;/*rgb(167, 169, 170); /*ljusgrå*/
+  color: rgb(167, 169, 170); /*ljusgrå*/
   font-size: 150%;
   list-style: none;
   padding-top: 5%;
-  padding-left: 15%;
+  padding-left: 1vh;
+
 
 }
 
@@ -356,4 +357,25 @@ body, html {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.go-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  font-size: 40px !important;
+  background-color: white;
+  border: 1px white solid;
+
+  /* Radie 100% för att bli cirkel */
+  border-radius: 100%;
+
+  color: #191919;
+
+  transition: opacity 250ms linear;
+}
+
+.go-top:hover {
+  color: #191919;
 }

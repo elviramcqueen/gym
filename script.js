@@ -27,3 +27,17 @@ function showSlides(n) {
 window.onload = function() {
   showSlides(slideIndex);
 }
+
+document.addEventListener("scroll", (e) => {
+  let scroll = window.scrollY;
+  let btn = document.getElementsByClassName("go-top")[0];
+  if (scroll > 0) {
+      btn.style = "opacity: 1;";
+  } else {
+      btn.style = "opacity: 0;";
+  }
+});
+
+function smoothScrollTop() {
+  window.scrollTo({top: 0, behavior: "smooth"});
+}

@@ -88,9 +88,27 @@ footer{
 
 }
 
-ul{
+#links{
 
   list-style: none
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(167, 169, 170); /*ljusgrå*/
+  font-size: 150%;
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  padding-top: 5%;
+
+}
+
+#orange{
+
+  background-color: rgb(30, 36, 46); /*mörkgrå*//*#8C4537;/*rgb(255, 92, 0);/*orange*/
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -1%;
+
 }
 
 ul a{
@@ -102,13 +120,23 @@ ul a{
 
 }
 
+.tips{
+
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 92, 0);/*orange/;/*rgb(167, 169, 170); /*ljusgrå*/
+  font-size: 150%;
+  list-style: none;
+  padding-top: 5%;
+  padding-left: 15%;
+
+}
+
 a:hover{
 
 color: white;
 
-
 }
-
 
 .sc {
 
@@ -132,9 +160,7 @@ color: white;
 
 color: white;
 
-
 }
-
 
 .space{
 
@@ -167,8 +193,8 @@ color: rgb(167, 169, 170); /*ljusgrå*/
 height: 100%;
 margin-top: 0.9%;
 
-
 }
+
 .topnav a:hover{
 
  color: rgb(25, 54, 138) ;
@@ -181,8 +207,6 @@ background-color: transparent;
 color: white;
 
 }
-
-
 
 /* Cool gym website titeln*/
 
@@ -199,7 +223,6 @@ color: white;
 
 width: 100%;
 
-
 }
 
 #rec{
@@ -208,14 +231,21 @@ width: 100%;
   color: rgb(167, 169, 170); /*ljusgrå*//
   text-align: center;
   font-size: 250%;
+  padding-top: 10%;
   height: 20%;
-
-
-
 
 }
 
+#jk{
 
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ color: rgb(167, 169, 170); /*ljusgrå*//
+ font-size: 15%;
+ margin-top: -2%;
+
+
+}
 /* Parallax */
 
 body, html {

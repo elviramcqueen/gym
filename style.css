@@ -12,7 +12,7 @@ body{
 header{
 
   background-color: rgb(30, 36, 46); /*mörkgrå*/
-  height: 32vh;
+  height: 35vh;
   box-shadow: 1px 2px 60px rgb(30, 36, 46); /*mörkgrå*/ /*rgb(23, 30, 48);/*gb(134, 175, 255); /*ljusblå*/
   border-radius: 20px;
   margin-top: -30px;
@@ -42,11 +42,11 @@ och därför behöver titeln flyttas på ett annat sätt*/
 /*Text i footern*/
 h3{
 
-  font-family: 'Zen Dots', cursive;
-  color: rgb(255, 92, 0);
+  font-family: 'Oswald', sans-serif;
+  color: rgb(167, 169, 170); /*ljusgrå*/
   text-align: center;
-  font-size: 200%;
-  margin-top: 2%;
+  font-size: 12vh;
+  padding-top: 5vh;
 
 }
 
@@ -65,7 +65,7 @@ h2{
 
 footer{
 
- height: 20%;
+ height: 30vh;
  background-color: rgb(30, 36, 46); /*mörkgrå*/
 
 }
@@ -90,7 +90,9 @@ footer{
 .lorem{
 
   color: white;
-  font-family: arial;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   text-align: left;
   font-size: 120%;
   padding-left: 20%;
@@ -103,7 +105,9 @@ footer{
 .ipsum{
 
   color: white;
-  font-family: arial;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   text-align: left;
   font-size: 120%;
   padding-left: 20%;
@@ -257,6 +261,13 @@ color: white;
   padding: 3%;
 }
 
+/*Vikt i footern*/
+#vikt{
+
+padding-top: 3vh;
+height: 25vh;
+
+}
 /*Reccommendations titeln*/
 #rec{
 

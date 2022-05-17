@@ -12,7 +12,7 @@ body{
 header{
 
   background-color: rgb(30, 36, 46); /*mörkgrå*/
-  height: 34vh;
+  height: 269px;
   box-shadow: 1px 2px 60px rgb(30, 36, 46); /*mörkgrå*/ /*rgb(23, 30, 48);/*gb(134, 175, 255); /*ljusblå*/
   border-radius: 20px;
   margin-top: -30px;
@@ -222,6 +222,10 @@ color: white;
   text-decoration: none;
   text-align: center;
   height: 2.5em;
+  border-top: 5px solid rgb(255, 92, 0);/*orange*/
+  border-bottom: 5px solid rgb(255, 92, 0);/*orange*/
+  background-color: rgb(30, 36, 46); /*mörkgrå*/
+
 
 }
 
@@ -307,6 +311,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /*Andra parallaxbakgrunden*/
@@ -434,7 +439,7 @@ body, html {
 
 header{
 
- height: 20%;
+ height: 120px;
 
 
 }
@@ -459,7 +464,9 @@ header{
   display: none;
 }
 
-#links{
+.links .tips{
+
+  font-size: 2px;
 
 }
 
@@ -467,7 +474,5 @@ header{
 
   font-size: 2vh;
 
-
-}
 
 }

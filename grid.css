@@ -32,3 +32,84 @@ h3{
   grid-column: 1/2;
 
 }
+
+.container2{
+
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 269px repeat(8,1fr);
+
+}
+
+header{
+
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.topnav{
+
+  grid-column: 1/4;
+  grid-row: 1/2;
+
+}
+
+h1{
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.lorem{
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+}
+
+.ipsum{
+
+ grid-column: 2/3;
+ grid-row: 6/5;
+
+}
+
+.parallax{
+
+  grid-column: 1/4;
+  grid-row: 2/5;
+
+}
+
+
+.parallax2{
+
+  grid-column: 1/4;
+  grid-row: 5/10;
+
+}
+
+footer{
+
+grid-column: 1/4;
+grid-row: 9/10;
+
+}
+
+.line{
+
+  grid-column: 1/4;
+  grid-row: 5/6;
+
+}
+
+@media (max-width: 880px){
+.container2{
+
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 167px repeat(8,1fr);
+
+}
+
+}

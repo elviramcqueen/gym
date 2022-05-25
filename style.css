@@ -362,12 +362,14 @@ body, html {
 /* Titlar */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 120%;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  opacity: 80%;
 }
 
 /* visar vilken sida användaren är på */
@@ -475,4 +477,20 @@ header{
   font-size: 2vh;
 
 
+}
+
+h3{
+
+  font-size: 220%;
+
+}
+
+#vikt{
+
+  height: 20%;
+}
+
+footer{
+
+  height: 20%;
 }

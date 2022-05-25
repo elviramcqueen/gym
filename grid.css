@@ -3,9 +3,8 @@
 .container{
 
    display: grid;
-   grid-template-columns: 1fr(repeat,3);
+   grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: auto;
-
 }
 
 /*Bilden i footern som ligger till höger*/

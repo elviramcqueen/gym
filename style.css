@@ -305,7 +305,7 @@ body, html {
 /*Första parallaxbakgrunden*/
 .parallax {
 
-  background-image: url("images/aesthetic.jpeg");
+  background-image: url("images/aesthetic.webp");/* Behöver inte ge någon credit enligt CC0 1.0 Universal (CC0 1.0) Public Domain Dedication*/
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -317,7 +317,7 @@ body, html {
 /*Andra parallaxbakgrunden*/
 .parallax2 {
 
-  background-image: url("images/deadlift.jpeg");
+  background-image: url("images/deadlift.webp"); /* Behöver inte ge någon credit enligt CC0 1.0 Universal (CC0 1.0) Public Domain Dedication*/
   height: 100%;
   background-attachment: fixed;
   background-position: center;
